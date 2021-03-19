@@ -1,104 +1,138 @@
 {
   "main": {
-    "name":"Mitch Bilensky",
-    "occupation":"Software Consultant",
-    "description":"Professional Code Monkey, enjoys the work and keeps up to date with the latest tech",
-    "image":"profilepic.jpg",
-    "bio":"Bio here.",
-    "contactmessage":"Email me, yo",
+    "name": "Mitch Bilensky",
+    "occupation": "Software Consultant",
+    "description": "Professional Code Monkey, enjoys the work and keeps up to date with the latest tech",
+    "image": "profilepic.jpg",
+    "bio": "General tech enthusiast with an interest in the cloud and home automation. Apart from that I'm generally found out walking the trails with my dog or sitting on the patio of a craft brewery enjoying a drink.",
+    "contactmessage": "Send me an Email!",
     "email": "mitch.bilensky@gmail.com",
     "phone": "506-461-0630",
-    "address":{
-      "street":"Woodmount Dr",
-      "city":"Fredericton",
-      "state":"NB",
-      "zip": "E3B 2M8"
+    "address": {
+      "street": "Woodmount Dr",
+      "city": "Fredericton",
+      "state": "NB",
+      "zip": "E3A 2M4"
     },
     "website": "https://mitch.bilensky.ca",
-    "resumedownload":"http://test1234.com",
-    "social":[
+    "resumedownload": "http://test1234.com",
+    "social": [
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/mitchbilensky/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/mitchbilensky/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"github",
-        "url":"https://github.com/MitchB09",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/MitchB09",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "gitlab",
+        "url": "https://gitlab.com/MitchB09",
+        "className": "fab fa-gitlab"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
+  "resume": {
+    "skillmessage": "Full stack developer with a focus on cloud first solutions. Will dabble in any new tech I find interesting. Ask me about Git and Infrastructure as Code! This website is even built using AWS CloudFormation with CI/CD!",
+    "education": [
       {
-        "school":"New Brunswick Community College",
-        "degree":"Information Technology: Programmer Analyst",
-        "graduated":"April 2015",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "New Brunswick Community College",
+        "degree": "Information Technology: Programmer Analyst",
+        "graduated": "June 2015, Graduate with honours",
+        "description": "Started as an idea with good job prospects and ended up enjoying it. Turned out pretty well, and happen to be good at it."
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Accreon Inc.",
-        "title":"Software Consultant",
-        "years":"June 2015 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Accreon Inc.",
+        "title": "Software Consultant",
+        "years": "April 2015 - Present",
+        "description": "Full stack developer in the healthcare space with a focus on cloud development. Work directly with clients to recommend and implement cloud solutions"
       }
     ],
-    "skills":[
+    "skills": [
       {
-        "name":"Java",
-        "level":"85%"
-			},
-			{
-        "name":"C#",
-        "level":"65%"
+        "name": "Java",
+        "level": "85%"
       },
       {
-        "name":"Python 3",
-        "level":"55%"
+        "name": "C#",
+        "level": "65%"
       },
       {
-        "name":"React",
-        "level":"60%"
-			},
-			{
-        "name":"Angular",
-        "level":"55%"
-			},
-			{
-        "name":"Git",
-        "level":"90%"
+        "name": "Python 3",
+        "level": "45%"
       },
       {
-        "name":"AWS",
-        "level":"80%"
+        "name": "React",
+        "level": "80%"
       },
       {
-        "name":"MSSQL",
-        "level":"70%"
+        "name": "Angular",
+        "level": "55%"
       },
       {
-        "name":"Oracle DB",
-        "level":"50%"
+        "name": "Git",
+        "level": "90%"
+      },
+      {
+        "name": "AWS",
+        "level": "80%"
+      },
+      {
+        "name": "Azure",
+        "level": "50%"
+      },
+      {
+        "name": "MSSQL",
+        "level": "80%"
+      },
+      {
+        "name": "Oracle DB",
+        "level": "50%"
+      },
+      {
+        "name": "CloudFormation",
+        "level": "75%"
+      },
+      {
+        "name": "Terraform",
+        "level": "45%"
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
       {
-        "text":"Roger, Roger.",
-        "user":"Kareem Abdul Jabbar"
+        "title": "This Page!",
+        "category": "My Professtional Site",
+        "image": "ResumeSite.png",
+        "url": "https://mitch.bilensky.ca"
       },
       {
-        "text":"Test 123!",
-        "user":"Steve Wozniak... impersonator"
+        "title": "Random Workouts",
+        "category": "Side Projects",
+        "image": "SimpleLists.png",
+        "url": "https://simple-lists.bilensky.ca"
+      },
+      {
+        "title": "Home Automation",
+        "category": "Side Projects",
+        "image": "HomeAutomationSite.png"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Roger, Roger.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "Test 123!",
+        "user": ""
       }
     ]
   }
