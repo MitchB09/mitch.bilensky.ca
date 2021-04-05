@@ -2,9 +2,9 @@
   "main": {
     "name": "Mitch Bilensky",
     "occupation": "Software Consultant",
-    "description": "Professional Code Monkey, enjoys the work and keeps up to date with the latest tech",
+    "description": "Professional Code Monkey, enjoys the work and keeps up to date with the latest tech.",
     "image": "profilepic.jpg",
-    "bio": "General tech enthusiast with an interest in the cloud and home automation. Apart from that I'm generally found out walking the trails with my dog or sitting on the patio of a craft brewery enjoying a drink.",
+    "bio": "General tech enthusiast with an interest in cloud development and architecture, DevOps, and automation. Has been working as a full stack developer for the past 6 years mostly within Java (Spring) and JS (React and Angular), with a recent focus on the cloud. Apart from that I'm generally found out walking the trails with my dog or sitting on the patio of a craft brewery enjoying a drink.",
     "contactmessage": "Send me an Email!",
     "email": "mitch.bilensky@gmail.com",
     "phone": "506-461-0630",
@@ -106,13 +106,13 @@
   "portfolio": {
     "projects": [
       {
-        "title": "This Page!",
+        "title": "Resume Site",
         "category": "My Professtional Site",
         "image": "ResumeSite.png",
         "url": "https://mitch.bilensky.ca"
       },
       {
-        "title": "Random Workouts",
+        "title": "SimpleLists/Random Workouts",
         "category": "Side Projects",
         "image": "SimpleLists.png",
         "url": "https://simple-lists.bilensky.ca"

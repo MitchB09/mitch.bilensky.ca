@@ -8,12 +8,6 @@ Parameters:
     Type: String
     Description: The Stage where the application is running in, e.g., dev, prod.
 
-Globals:
-  Function:
-    Timeout: 5
-    Handler: index.handler
-    Runtime: nodejs12.x
-
 Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
@@ -65,14 +59,11 @@ Resources:
         PriceClass: PriceClass_100
         ViewerCertificate:
           SslSupportMethod: 'sni-only'
-          AcmCertificateArn: arn:aws:acm:us-east-1:791956792554:certificate/be6c437a-760b-4ee4-9a89-a2bb7995e6ff
+          AcmCertificateArn: !Sub 'arn:aws:acm:${AWS::Region}:${AWS::AccountId}:certificate/be6c437a-760b-4ee4-9a89-a2bb7995e6ff'
           MinimumProtocolVersion: 'TLSv1.2_2019'
 
 
 Outputs:
-  # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
-  # Find out more about other implicit resources you can reference within SAM
-  # https://github.com/awslabs/serverless-application-model/blob/master/docs/internals/generated_resources.rst#api
   CloudFrontDomain:
     Description: CloudFront Domain Name
     Value: !GetAtt CloudFrontDistribution.DomainName
