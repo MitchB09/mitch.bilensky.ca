@@ -3,3 +3,4 @@
 site/build/
 site/node_modules/
 site/.eslintcache
+samconfig.toml
