@@ -4,7 +4,7 @@
     "occupation": "Software Consultant",
     "description": "Professional Code Monkey, enjoys the work and keeps up to date with the latest tech.",
     "image": "profilepic.jpg",
-    "bio": "General tech enthusiast with an interest in cloud development and architecture, DevOps, and automation. Has been working as a full stack developer for the past 6 years mostly within Java (Spring) and JS (React and Angular), with a recent focus on the cloud. Apart from that I'm generally found out walking the trails with my dog or sitting on the patio of a craft brewery enjoying a drink.",
+    "bio": "General tech enthusiast with an interest in cloud development and architecture, DevOps, and automation. Has been working as a full stack developer for since 2015 mainly with Java (Spring Boot) and JS (React), with a focus on the cloud. Apart from that I'm generally found out walking the trails with my dogs or sitting on the patio of a craft brewery enjoying a drink.",
     "contactmessage": "Send me an Email!",
     "email": "mitch.bilensky@gmail.com",
     "phone": "506-461-0630",
@@ -26,11 +26,6 @@
         "name": "github",
         "url": "https://github.com/MitchB09",
         "className": "fa fa-github"
-      },
-      {
-        "name": "gitlab",
-        "url": "https://gitlab.com/MitchB09",
-        "className": "fab fa-gitlab"
       }
     ]
   },
@@ -48,14 +43,20 @@
       {
         "company": "Accreon Inc.",
         "title": "Software Consultant",
-        "years": "April 2015 - Present",
+        "years": "April 2015 - May 2022",
         "description": "Full stack developer in the healthcare space with a focus on cloud development. Work directly with clients to recommend and implement cloud solutions"
+      },
+      {
+        "company": "Quantiphi Inc.",
+        "title": "Software Consultant",
+        "years": "May 2022 - Present",
+        "description": "Full stack development team lead. Consultant in healthcare space for building distributed cloud services"
       }
     ],
     "skills": [
       {
         "name": "Java",
-        "level": "85%"
+        "level": "90%"
       },
       {
         "name": "C#",
@@ -63,19 +64,15 @@
       },
       {
         "name": "Python 3",
-        "level": "45%"
+        "level": "40%"
       },
       {
         "name": "React",
-        "level": "80%"
-      },
-      {
-        "name": "Angular",
-        "level": "55%"
+        "level": "85%"
       },
       {
         "name": "Git",
-        "level": "90%"
+        "level": "95%"
       },
       {
         "name": "AWS",
@@ -83,15 +80,11 @@
       },
       {
         "name": "Azure",
-        "level": "50%"
+        "level": "70%"
       },
       {
         "name": "MSSQL",
         "level": "80%"
-      },
-      {
-        "name": "Oracle DB",
-        "level": "50%"
       },
       {
         "name": "CloudFormation",
@@ -99,7 +92,7 @@
       },
       {
         "name": "Terraform",
-        "level": "45%"
+        "level": "55%"
       }
     ]
   },
@@ -112,10 +105,10 @@
         "url": "https://mitch.bilensky.ca"
       },
       {
-        "title": "SimpleLists/Random Workouts",
+        "title": "Magic 8 Ball",
         "category": "Side Projects",
-        "image": "SimpleLists.png",
-        "url": "https://simple-lists.bilensky.ca"
+        "image": "Magic8Ball.png",
+        "url": "https://magic8ball.ca"
       },
       {
         "title": "Home Automation",
