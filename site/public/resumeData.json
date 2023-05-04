@@ -44,13 +44,13 @@
         "company": "Accreon Inc.",
         "title": "Software Consultant",
         "years": "April 2015 - May 2022",
-        "description": "Full stack developer in the healthcare space with a focus on cloud development. Work directly with clients to recommend and implement cloud solutions"
+        "description": "Full stack developer in the healthcare space with a focus on cloud development. Work directly with clients to recommend and implement cloud solutions. In May of 2022 Accreon was acquired by Quantiphi Inc."
       },
       {
         "company": "Quantiphi Inc.",
         "title": "Software Consultant",
         "years": "May 2022 - Present",
-        "description": "Full stack development team lead. Consultant in healthcare space for building distributed cloud services"
+        "description": "Full stack development team lead. Consultant in healthcare space for building distributed cloud services, with a current focus on automating business processes"
       }
     ],
     "skills": [
@@ -60,7 +60,7 @@
       },
       {
         "name": "C#",
-        "level": "65%"
+        "level": "60%"
       },
       {
         "name": "Python 3",
@@ -100,7 +100,7 @@
     "projects": [
       {
         "title": "Resume Site",
-        "category": "My Professtional Site",
+        "category": "My Personal Site",
         "image": "ResumeSite.png",
         "url": "https://mitch.bilensky.ca"
       },
@@ -111,9 +111,11 @@
         "url": "https://magic8ball.ca"
       },
       {
-        "title": "Home Automation",
+        "title": "D&D Dice Roller Library",
         "category": "Side Projects",
-        "image": "HomeAutomationSite.png"
+        "image": "NPM.png",
+        "url": "https://https://www.npmjs.com/package/dnd5e-dice-roller?activeTab=readme"
+
       }
     ]
   },
