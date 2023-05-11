@@ -41,17 +41,24 @@
     ],
     "work": [
       {
-        "company": "Accreon Inc.",
-        "title": "Software Consultant",
-        "years": "April 2015 - May 2022",
-        "description": "Full stack developer in the healthcare space with a focus on cloud development. Work directly with clients to recommend and implement cloud solutions. In May of 2022 Accreon was acquired by Quantiphi Inc."
-      },
-      {
         "company": "Quantiphi Inc.",
         "title": "Software Consultant",
         "years": "May 2022 - Present",
-        "description": "Full stack development team lead. Consultant in healthcare space for building distributed cloud services, with a current focus on automating business processes"
+        "description": "Accreon was acquired by Quantiphi and the existing scrum team continued and personal role expanded to add the role of Architect for  the migration for an insurance provider web client  from an on-prem to an AWS solution."
+      },
+      {
+        "company": "Accreon Inc.",
+        "title": "Lead Developer",
+        "years": "April 2021 - May 2022",
+        "description": "Lead a scrum team of developers contracted for planning, building, deploying, and maintaining a series of cloud services used to automate business operations performed by a leading electronic health record platform. Primarily use Java and React to deploy containerized solutions to replace manual workflows used for data cleanliness and mergers & acquisitions with systems automated wherever possible and allow putting the data in the hands of the end users wherever possible"
+      },
+      {
+        "company": "Accreon Inc.",
+        "title": "Full Stack Developer",
+        "years": "April 2015 - April 2021",
+        "description": "Worked within a team of developers consulting for a large electronic health record system for a nursing home software solution. Built various solutions within their monolith application primarily including a document generation, management, and eSignature solution for custom admission documents integrated with an eSignature vendor and a CRM solution for managing incoming clients and tracking their onboarding workflows."
       }
+
     ],
     "skills": [
       {
