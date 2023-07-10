@@ -15,7 +15,6 @@
       "zip": "E3A 2M4"
     },
     "website": "https://mitch.bilensky.ca",
-    "resumedownload": "http://test1234.com",
     "social": [
       {
         "name": "linkedin",
@@ -44,7 +43,7 @@
         "company": "Quantiphi Inc.",
         "title": "Architect",
         "years": "May 2022 - Present",
-        "description": "Accreon was acquired by Quantiphi and the existing scrum team continued and personal role expanded to add the role of Architect for  the migration for an insurance provider web client  from an on-prem to an AWS solution."
+        "description": "Accreon was acquired by Quantiphi and the existing scrum team continued and personal role expanded to add the role of Architect for  the migration for an insurance provider web client from an on-prem to an AWS solution."
       },
       {
         "company": "Accreon Inc.",
@@ -123,18 +122,6 @@
         "image": "NPM.png",
         "url": "https://www.npmjs.com/package/dnd5e-dice-roller?activeTab=readme"
 
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Roger, Roger.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "Test 123!",
-        "user": ""
       }
     ]
   }
