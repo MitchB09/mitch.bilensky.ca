@@ -1,12 +1,11 @@
 {
-  "name": "site",
+  "name": "mitch.bilensky.ca",
+  "description": "Resume website for Mitch Bilensky",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^12.5.0",
     "jquery": "^3.5.1",
+    "mitch.bilensky.ca": "file:",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-ga": "^3.3.1",
@@ -18,6 +17,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "overrides": {
+    "serialize-javascript": "6.0.2",
+    "nth-check": "2.1.1",
+    "postcss": "8.5.3"
   },
   "eslintConfig": {
     "extends": [

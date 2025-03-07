@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Mitch Bilensky",
-    "occupation": "Software Consultant",
-    "description": "Professional Code Monkey, enjoys the work and keeps up to date with the latest tech.",
+    "occupation": "Software Developer",
+    "description": "Enjoys the work and keeps up to date with the latest tech.",
     "image": "profilepic.jpg",
-    "bio": "General tech enthusiast with an interest in cloud development and architecture, DevOps, and automation. Has been working as a full stack developer since 2015 mainly with Java (Spring Boot) and JS (React) with a focus on the cloud. Apart from that I'm generally found out walking the trails with my dogs or sitting on the patio of a craft brewery enjoying a drink.",
+    "bio": "General tech enthusiast with an interest in cloud development and architecture, DevOps, and automation. Has been working as a full stack developer since 2015 mainly with Java (Spring Boot) and JavaScript (React) with a focus on the cloud. Apart from that I'm generally found out walking the trails with my dogs or sitting on the patio of a craft brewery.",
     "contactmessage": "Send me an Email!",
     "email": "mitch.bilensky@gmail.com",
     "phone": "506-461-0630",
@@ -57,48 +57,87 @@
         "years": "April 2015 - April 2021",
         "description": "Worked within a team of developers consulting for a large electronic health record system for a nursing home software solution. Built various solutions within their monolith application primarily including a document generation, management, and eSignature solution for custom admission documents integrated with an eSignature vendor and a CRM solution for managing incoming clients and tracking their onboarding workflows."
       }
-
     ],
-    "skills": [
+    "skillCategories": [
       {
-        "name": "Java",
-        "level": "90%"
+        "name": "Languages and Frameworks",
+        "skills": [
+          {
+            "name": "Java",
+            "level": "90%"
+          },
+          {
+            "name": "Spring",
+            "level": "80%"
+          },
+          {
+            "name": "C#",
+            "level": "45%"
+          },
+          {
+            "name": "Python 3",
+            "level": "35%"
+          },
+          {
+            "name": "JavaScript",
+            "level": "80%"
+          },
+          {
+            "name": "React",
+            "level": "75%"
+          }
+        ]
       },
       {
-        "name": "C#",
-        "level": "60%"
+        "name": "Tools",
+        "skills": [
+          {
+            "name": "Git",
+            "level": "90%"
+          },
+          {
+            "name": "Maven",
+            "level": "80%"
+          },
+          {
+            "name": "NPM",
+            "level": "60%"
+          },
+          {
+            "name": "CloudFormation",
+            "level": "75%"
+          },
+          {
+            "name": "Terraform",
+            "level": "55%"
+          }
+        ]
       },
       {
-        "name": "Python 3",
-        "level": "40%"
+        "name": "Cloud",
+        "skills": [
+          {
+            "name": "AWS",
+            "level": "70%"
+          },
+          {
+            "name": "Azure",
+            "level": "60%"
+          }
+        ]
       },
       {
-        "name": "React",
-        "level": "85%"
-      },
-      {
-        "name": "Git",
-        "level": "95%"
-      },
-      {
-        "name": "AWS",
-        "level": "80%"
-      },
-      {
-        "name": "Azure",
-        "level": "70%"
-      },
-      {
-        "name": "MSSQL",
-        "level": "80%"
-      },
-      {
-        "name": "CloudFormation",
-        "level": "75%"
-      },
-      {
-        "name": "Terraform",
-        "level": "55%"
+        "name": "Databases",
+        "skills": [
+          {
+            "name": "MSSQL",
+            "level": "70%"
+          },
+          {
+            "name": "DynamoDB",
+            "level": "50%"
+          }
+        ]
       }
     ]
   },
@@ -121,7 +160,6 @@
         "category": "Side Projects",
         "image": "NPM.png",
         "url": "https://www.npmjs.com/package/dnd5e-dice-roller?activeTab=readme"
-
       }
     ]
   }
