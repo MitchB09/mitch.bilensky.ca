@@ -10,7 +10,7 @@ Resources built using AWS Cloudformation. Creates an S3 Bucket to contain the re
 
 ## Site
 
-Slightly tweaked React resume site leveraged from template referenced below. Pulls most displayed data from resumeData.json
+React resume site based off of the template referenced below. Pulls most displayed data from resumeData.json
 
 [React Project Folder](site/)
 
