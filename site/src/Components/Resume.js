@@ -17,7 +17,6 @@ function Resume(props) {
   })
 
   const renderSkillCategory = (category) => {
-    console.dir(category)
     return (
       <>
         <h3>{category.name}</h3>
@@ -77,7 +76,6 @@ function Resume(props) {
           <div className="bars">
             <ul className="skillCategories">
               {data.skillCategories.map((category) => {
-                console.dir(category);
                 return renderSkillCategory(category)
               })}
             </ul>
