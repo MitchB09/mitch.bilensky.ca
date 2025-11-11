@@ -18,7 +18,7 @@ function Resume(props) {
 
   const renderSkillCategory = (category) => {
     return (
-      <>
+      <div key={category.name}>
         <h3>{category.name}</h3>
         <ul className="skills">
           {category.skills.map((skill) => {
@@ -26,7 +26,7 @@ function Resume(props) {
             return <li key={skill.name}><span style={{ width: skill.level }} className={className}></span><em>{skill.name}</em></li>
           })}
         </ul>
-      </>
+      </div>
 
     )
   }

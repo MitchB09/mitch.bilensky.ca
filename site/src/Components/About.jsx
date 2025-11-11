@@ -49,7 +49,7 @@ const About = (props) => {
             <div className="columns download">
               <p>
                 <a
-                  href={process.env.PUBLIC_URL + "/resume.pdf"}
+                  href={"/resume.pdf"}
                   className="button"
                 >
                   <i className="fa fa-download"></i>Download Resume
