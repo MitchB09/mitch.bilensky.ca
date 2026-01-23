@@ -7,6 +7,14 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Portfolio from "./Components/Portfolio";
 
+const strucure = {
+  header: true,
+  about: true,
+  resume: true,
+  portfolio: false,
+  footer: true,
+}
+
 function App() {
 
   const [resumeData, setResumeData] = useState();
@@ -29,11 +37,11 @@ function App() {
     <div className="App">
       {(resumeData) ? (
         <>
-          <Header data={resumeData.main} />
-          <About data={resumeData.main} />
-          <Resume data={resumeData.resume} />
-          <Portfolio data={resumeData.portfolio} />
-          <Footer data={resumeData.main} />
+          {strucure.header && <Header data={resumeData.main} />}
+          {strucure.about && <About data={resumeData.main} />}
+          {strucure.resume && <Resume data={resumeData.resume} />}
+          {strucure.portfolio && <Portfolio data={resumeData.portfolio} />}
+          {strucure.footer && <Footer data={resumeData.main} />}
         </>
       ) : (
         <>Not Loaded</>

@@ -41,15 +41,15 @@
     "work": [
       {
         "company": "Quantiphi Inc.",
-        "title": "Architect",
+        "title": "Cloud Developer",
         "years": "May 2022 - Present",
-        "description": "Accreon was acquired by Quantiphi and the existing scrum team continued and personal role expanded to add the role of Architect for  the migration for an insurance provider web client from an on-prem to an AWS solution."
+        "description": "Accreon was acquired by Quantiphi and the existing scrum team continued."
       },
       {
         "company": "Accreon Inc.",
-        "title": "Lead Developer",
+        "title": "Cloud Developer",
         "years": "April 2021 - May 2022",
-        "description": "Lead a scrum team of developers contracted for planning, building, deploying, and maintaining a series of cloud services used to automate business operations performed by a leading electronic health record platform. Primarily use Java and React to deploy containerized solutions to replace manual workflows used for data cleanliness and mergers & acquisitions with systems automated wherever possible and allow putting the data in the hands of the end users wherever possible"
+        "description": "Lead developer on a scrum team contracted for planning, building, deploying, and maintaining a series of cloud services used to automate business operations performed by a leading electronic health record platform. Primarily use Java and React to deploy containerized solutions to replace manual workflows used for onboarding and mergers/acquisitions"
       },
       {
         "company": "Accreon Inc.",
@@ -64,18 +64,18 @@
         "skills": [
           {
             "name": "Java",
-            "level": "90%"
-          },
-          {
-            "name": "Spring",
             "level": "80%"
           },
           {
-            "name": "C#",
-            "level": "45%"
+            "name": "Spring",
+            "level": "75%"
           },
           {
-            "name": "Python 3",
+            "name": "C#",
+            "level": "40%"
+          },
+          {
+            "name": "Python",
             "level": "35%"
           },
           {
